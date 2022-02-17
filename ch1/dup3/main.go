@@ -33,6 +33,11 @@ func main() {
 			fmt.Printf("%d\t%s\n", n, line)
 		}
 	}
+
+	fmt.Println("==============")
+	for line, n := range counts {
+		fmt.Printf("%d\t%s\n", n, line)
+	}
 }
 
 //!-
